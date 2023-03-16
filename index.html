@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>triangle checker</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Triangle Checker</h1>
+    </header>
+    <div class="container">
+        <form>
+            <input type="number" id="side1" placeholder="line 1">
+            <input type="number" id="side2" placeholder="line 2">
+            <input type="number" id="side3"placeholder="line 3"> <br>
+            <button type="button" onclick="checkTriangle()">Check Triangle</button>
+            <button type="button" onclick="clearResult()"> Clear </button>
+        </form>
+
+        <div id="result"></div>
+
+        <div class="itemDesc">
+            <p> this tool checks if the inputs for the 3 values entered results in an equilateral, isoceles or scalene triangle  </p>
+        </div>
+    </div>
+</body>
+</html>

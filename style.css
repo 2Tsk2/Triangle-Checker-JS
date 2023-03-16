@@ -1,0 +1,77 @@
+body{
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+}
+/*make inputs more modern looking and center it using flexbox*/
+input{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000;
+}
+
+button{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+}
+/*make h1 more modern looking */
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+}
+.container{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#result{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+}
+
+.itemDesc{
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    padding: 3px;
+    background-color: #fff;
+}
